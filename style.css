@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(10deg, #2483ff 60%, #2c6afb 60%);
+}
+
+nav {
+    margin-top: 50px;
+    background-color: #292929;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu-item{
+	display: inline-block;
+	height: 60px;
+	width: 150px;
+	line-height: 60px;
+	cursor: pointer;
+	transition: bacground-color .3s;
+}
+.menu-item:hover {
+	background-color: #363636;
+}
+p{
+    font-size: 29px;
+}
